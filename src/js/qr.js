@@ -2,7 +2,6 @@ let qr = document.querySelector('.qr');
 let qr_dialog = document.querySelector('.qr_dialog');
 let elements = document.querySelector('.elements');
 let exit = document.querySelector('.btn_exit');
-
 let inserir = document.querySelector("input");
 let qr_image = document.querySelector(".qrimage");
 let divqr = document.querySelector(".divqr");
@@ -22,8 +21,8 @@ function close_qr() {
 }
 function gerando() {
     if(inserir.value != "") {
-        qr_image.style.opacity = 1;
-        divqr.style.opacity = 1;
+        qr_image.style.opacity = 1.2;
+        divqr.style.opacity = 1.2;
         qr_image.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${inserir.value}`;
     }else{
         qr_image.style.opacity = 0;
