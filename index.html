@@ -20,7 +20,7 @@
                     <h2>Gerador de QR Code</h2>
                 </div>
                 <div class="insert">
-                    <input type="text" onkeyup="gerando()" value="" placeholder="Digite aqui.."/>
+                    <input type="text" onkeyup="gerando()" value="" placeholder="Digite aqui.." maxlength="25"/>
                 </div>
                 <div class="divqr">
                     <img class="qrimage" src="">
@@ -67,6 +67,13 @@
         <div class="elements">
             <div class="text">
                 <h2>Meus Projetos</h2>
+                    <div class="relogio">
+                            <span class="hours">00</span>
+                            <span>:</span>
+                            <span class="minutes">00</span>
+                            <span>:</span>
+                            <span class="seconds">00</span>
+                    </div>
             </div>
             <div class="table">
                 <table>
@@ -100,5 +107,6 @@
     </footer>
     <script src="./src/js/qr.js"></script>
     <script src="./src/js/jogodavelha.js"></script>
+    <script src="./src/js/time.js"></script>
 </body>
 </html>

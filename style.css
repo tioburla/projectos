@@ -245,6 +245,12 @@ h2{
     scale: 1.03;
     box-shadow: 2px 1px 3px 1px #000;
 }
+.relogio{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(104, 255, 205);
+}
+
 footer{
     width: 100%;
     height: 5vh;
